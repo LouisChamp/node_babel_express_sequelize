@@ -1,0 +1,16 @@
+{
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "alias": {
+          "@App": "./src/app",
+          "@Models": "./src/app/models",
+          "@Controllers": "./src/app/controllers",
+          "@Config": "./src/config",
+          "@Database": "./src/db"
+        }
+      }
+    ]
+  ]
+}
